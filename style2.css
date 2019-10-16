@@ -1,0 +1,51 @@
+#money {
+  color:red;
+}
+#h3 {
+  border-bottom:2px solid black;
+}
+body {
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+#main {
+  font-size:45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol {
+  border-right:1px solid gray;
+  width:100px;
+  margin:0;
+  padding:20px;
+}
+#grid {
+  display:grid;
+  grid-template-columns:150px 1fr;
+  margin-bottom:30px;
+}
+#grid ol {
+  padding-left:33px;
+}
+#grid #article {
+  padding-left:25px;
+}
+@media(max-width:800px) {
+  #grid {
+    display:block;
+  }
+  ol {
+    border-right:none;
+  }
+  #main {
+    border-bottom:none;
+  }
+  #money {
+    border-bottom:none;
+  }
+}
